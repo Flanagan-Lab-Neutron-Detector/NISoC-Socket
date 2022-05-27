@@ -1,0 +1,8 @@
+### Module positions - created on Tuesday, April 19, 2022 at 08:12:54 PM ###
+### Printed by Pcbnew version (6.0.2-0)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                 PosX       PosY       Rot  Side
+C1        0.1uF     C_0805_2012Metric   -59.7050   -33.0300  -90.0000  bottom
+C2        10uF      C_0805_2012Metric   -53.3550   -12.7100  180.0000  bottom
+## End

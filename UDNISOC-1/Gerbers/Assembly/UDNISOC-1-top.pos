@@ -1,0 +1,9 @@
+### Module positions - created on Tuesday, April 19, 2022 at 08:12:54 PM ###
+### Printed by Pcbnew version (6.0.2-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                               PosX       PosY       Rot  Side
+J1        0.1"_Pin_Socket  PinSocket_2x14_P2.54mm_Vertical     8.2700    -5.0900    0.0000  top
+J2        0.1"_Pin_Socket  PinSocket_2x14_P2.54mm_Vertical    75.5750    -5.0900    0.0000  top
+U1        S29GL01GP        Socket_TSOP-56                     22.2350   -16.5200    0.0000  top
+## End
