@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "2022-07-01_14-40-34")(type "KiCad")(uri "${KIPRJMOD}/3224J-1-103E/2022-07-01_14-40-34.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-16_17-58-01")(type "KiCad")(uri "${KIPRJMOD}/ADR444ARZ/2022-06-16_17-58-01.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-16_17-06-14")(type "KiCad")(uri "${KIPRJMOD}/DAC11001BPFBR/2022-06-16_17-06-14.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-07-01_21-58-44")(type "KiCad")(uri "${KIPRJMOD}/LDK320ADU120R/2022-07-01_21-58-44.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-30_16-49-50")(type "KiCad")(uri "${KIPRJMOD}/LT3042MPMSE-PBF/2022-06-30_16-49-50.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-30_16-50-17")(type "KiCad")(uri "${KIPRJMOD}/LT3093EMSE-PBF/2022-06-30_16-50-17.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-16_19-10-14")(type "KiCad")(uri "${KIPRJMOD}/OPA189IDGKT/2022-06-16_19-10-14.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-07-11_19-20-20")(type "KiCad")(uri "${KIPRJMOD}/1-1571636-0/2022-07-11_19-20-20.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Pico/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-06-28_19-20-58")(type "KiCad")(uri "${KIPRJMOD}/OPA2189IDR/2022-06-28_19-20-58.kicad_sym")(options "")(descr ""))
+)
