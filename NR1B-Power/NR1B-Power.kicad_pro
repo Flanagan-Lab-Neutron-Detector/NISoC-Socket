@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -55,38 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|193407409|119500001|0724be6e-9af4-40b9-b8ba-69ab8f7e72f6|da8d5278-f828-4e4c-b598-18612370c765",
-        "silk_over_copper|208900742|159300001|8d62d06c-fc7e-4d1b-9796-6e68556b041b|70bb7331-96cf-4dec-8d73-8394b9737e95",
-        "silk_over_copper|208900742|159300001|8d62d06c-fc7e-4d1b-9796-6e68556b041b|f4e26a31-aada-4c48-9bc3-c95fb0f6d7fb",
-        "silk_overlap|176000000|122250000|c77b4c62-bde9-491f-8d8b-a789c6d429a9|b9b0ef5e-9817-4489-bed9-6e42824ebdd5",
-        "silk_overlap|176000000|123750000|c77b4c62-bde9-491f-8d8b-a789c6d429a9|a7d63dd1-96b5-4e53-bd71-30f44d47551f",
-        "silk_overlap|176000000|123850000|a7d63dd1-96b5-4e53-bd71-30f44d47551f|c77b4c62-bde9-491f-8d8b-a789c6d429a9",
-        "silk_overlap|180500000|94750000|cd5c4fde-d5bd-4d8c-880f-57a3d0a4a8a7|2bf4bafa-8ea5-4917-a1c7-20b3ae7b21b1",
-        "silk_overlap|180500000|96250000|cd5c4fde-d5bd-4d8c-880f-57a3d0a4a8a7|6fc9d7e5-f8c0-4a88-aec4-2b52d635db68",
-        "silk_overlap|180500000|97250000|e2742886-9e18-40ca-a3da-7230a96bf02c|dd1e1ee4-4ad1-4aac-9f78-fc409112e8d6",
-        "silk_overlap|180500000|98750000|e2742886-9e18-40ca-a3da-7230a96bf02c|02466e1b-5a90-4dcf-9d62-7352cef049a4",
-        "silk_overlap|183000000|122150000|8190b5ef-ce81-4cd2-b489-224bbfc65dba|84653c50-ded9-487a-9816-aa29334893ed",
-        "silk_overlap|183000000|122250000|84653c50-ded9-487a-9816-aa29334893ed|8190b5ef-ce81-4cd2-b489-224bbfc65dba",
-        "silk_overlap|183000000|123750000|84653c50-ded9-487a-9816-aa29334893ed|dc40bb19-67c8-4c30-a600-d8242089b66b",
-        "silk_overlap|183000000|123850000|dc40bb19-67c8-4c30-a600-d8242089b66b|84653c50-ded9-487a-9816-aa29334893ed",
-        "silk_overlap|184000000|100100000|575e5de1-4d04-4a7d-963d-61e1572a4941|74f2db2e-32a4-4bd6-a3b8-8194a7c78bab",
-        "silk_overlap|184000000|101900000|2bf4bafa-8ea5-4917-a1c7-20b3ae7b21b1|cd5c4fde-d5bd-4d8c-880f-57a3d0a4a8a7",
-        "silk_overlap|184000000|103600000|6fc9d7e5-f8c0-4a88-aec4-2b52d635db68|cd5c4fde-d5bd-4d8c-880f-57a3d0a4a8a7",
-        "silk_overlap|184000000|104400000|dd1e1ee4-4ad1-4aac-9f78-fc409112e8d6|e2742886-9e18-40ca-a3da-7230a96bf02c",
-        "silk_overlap|184000000|106100000|02466e1b-5a90-4dcf-9d62-7352cef049a4|e2742886-9e18-40ca-a3da-7230a96bf02c",
-        "silk_overlap|184000000|96000000|599a9387-b125-47dd-8993-9e86281059c3|8e831d88-c087-450e-96ab-05f684f279f7",
-        "silk_overlap|184000000|97500000|599a9387-b125-47dd-8993-9e86281059c3|0669c272-8f59-4adf-9db9-78ac7f252f1a",
-        "silk_overlap|184000000|98400000|5a07297d-f5b8-430d-8b78-31f088daaca9|74f2db2e-32a4-4bd6-a3b8-8194a7c78bab",
-        "silk_overlap|206000000|186150000|8be32b11-c2a5-4dea-9b6e-52bd47cf2444|049aa81f-ad41-4d9a-bb95-fcf564369147",
-        "silk_overlap|206000000|186250000|049aa81f-ad41-4d9a-bb95-fcf564369147|8be32b11-c2a5-4dea-9b6e-52bd47cf2444",
-        "silk_overlap|206000000|187750000|049aa81f-ad41-4d9a-bb95-fcf564369147|3871f845-b4d4-4cd9-8e88-03ceb8c0b655",
-        "silk_overlap|206000000|187850000|3871f845-b4d4-4cd9-8e88-03ceb8c0b655|049aa81f-ad41-4d9a-bb95-fcf564369147",
-        "silk_overlap|207150000|189500000|303170d6-1061-41a2-a358-fdabd6f24fb2|84dd35ad-dbb5-4303-bd40-3474c71d4fd9",
-        "silk_overlap|207250000|189500000|84dd35ad-dbb5-4303-bd40-3474c71d4fd9|303170d6-1061-41a2-a358-fdabd6f24fb2",
-        "silk_overlap|208750000|189500000|84dd35ad-dbb5-4303-bd40-3474c71d4fd9|f2721ec8-2c48-49e7-aa46-a408168bbb92",
-        "silk_overlap|208850000|189500000|f2721ec8-2c48-49e7-aa46-a408168bbb92|84dd35ad-dbb5-4303-bd40-3474c71d4fd9"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -363,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -377,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NR1B-ST56.kicad_pro",
+    "filename": "NR1B-Power.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -410,13 +379,17 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+12V",
           "+15V",
-          "/+15V_IN",
-          "/12V_IN",
+          "+24V",
+          "+5V",
+          "-15V",
+          "/24VIN",
           "GND",
-          "VCC",
-          "VIO"
+          "Net-(D1-Pad2)",
+          "Net-(D7-Pad1)",
+          "Net-(D7-Pad2)",
+          "Net-(D8-Pad1)",
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

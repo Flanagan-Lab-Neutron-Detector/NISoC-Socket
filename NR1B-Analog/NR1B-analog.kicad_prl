@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 49,
-    "active_layer_preset": "All Layers",
-    "auto_track_width": true,
+    "active_layer": 37,
+    "active_layer_preset": "",
+    "auto_track_width": false,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffdbcff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "NR1B-Module-Base.kicad_prl",
+    "filename": "NR1B-analog.kicad_prl",
     "version": 3
   },
   "project": {
