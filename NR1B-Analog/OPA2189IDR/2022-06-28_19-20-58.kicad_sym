@@ -6,7 +6,7 @@
     (property "Value" "OPA2189IDR" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "D0008A_N" (id 2) (at 0 -1.524 0)
+    (property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" (id 2) (at 0 -1.524 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
