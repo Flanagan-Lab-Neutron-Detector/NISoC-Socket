@@ -4,6 +4,14 @@
 
   (paper "USLedger")
 
+  (title_block
+    (title "NR1B-Analog")
+    (date "2022-07-26")
+    (rev "v1.0")
+    (company "University of Dallas")
+    (comment 1 "Isaac Kelly")
+  )
+
   (lib_symbols
     (symbol "2022-06-16_17-06-14:DAC11001BPFBR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 25.4 10.16 0)
@@ -4321,10 +4329,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6df88e27-800f-4e5d-b012-c4f66e99a40d)
   )
-  (text "v1.0" (at 403.86 262.89 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7e008351-49fe-4ae6-9dee-553347b8d5ff)
-  )
   (text "Adjust to 14\nRange 13 to 15" (at 91.44 203.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8071d03b-0c62-4198-985f-af77fa115353)
@@ -4366,10 +4370,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b8b9f2c5-3438-41c4-b03f-aafa2253491a)
   )
-  (text "7/25/2022" (at 341.63 262.89 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ba15573f-dd81-4762-815d-c056b4eaa84a)
-  )
   (text "Ref amp" (at 186.69 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c20efe46-b697-4854-a1fe-fa14ec7281fa)
@@ -4377,10 +4377,6 @@
   (text "Output - Kelvin drive" (at 264.16 143.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d21685ca-af16-4d0d-a2dd-9be896d717a5)
-  )
-  (text "NR1B-Analog" (at 321.31 260.35 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid d6115a42-23c0-4a33-a77a-8b914f72bb89)
   )
   (text "Adjust to -14\nrange -13 to -15" (at 83.82 262.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

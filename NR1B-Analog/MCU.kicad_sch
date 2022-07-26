@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "NR1B-Analog")
+    (date "2022-07-26")
+    (rev "v1.0")
+    (company "University of Dallas")
+    (comment 1 "Isaac Kelly")
+  )
+
   (lib_symbols
     (symbol "2022-07-11_19-20-20:1-1571636-0" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 20.32 10.16 0)
