@@ -6,7 +6,7 @@
 
   (title_block
     (title "NISoC Readout 1 Power Board")
-    (date "2022-07-22")
+    (date "2022-07-27")
     (rev "1.0")
     (company "University of Dallas")
     (comment 1 "Drawn By: Aidan Medcalf")
@@ -4657,7 +4657,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec0d2c98-8323-40ff-abf5-0ab52e148e8a)
     (property "Reference" "F3" (id 0) (at 342.9 72.39 90))
-    (property "Value" "250 mA" (id 1) (at 342.9 74.93 90))
+    (property "Value" "300 mA" (id 1) (at 342.9 74.93 90))
     (property "Footprint" "Fuse:Fuse_1812_4532Metric" (id 2) (at 347.98 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -4914,7 +4914,7 @@
       (reference "F2") (unit 1) (value "200 mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/ec0d2c98-8323-40ff-abf5-0ab52e148e8a"
-      (reference "F3") (unit 1) (value "250 mA") (footprint "Fuse:Fuse_1812_4532Metric")
+      (reference "F3") (unit 1) (value "300 mA") (footprint "Fuse:Fuse_1812_4532Metric")
     )
     (path "/c75138cf-95a9-494d-8d16-c9699b97d881"
       (reference "FB1") (unit 1) (value "30@100MHz") (footprint "Inductor_SMD:L_0805_2012Metric")
