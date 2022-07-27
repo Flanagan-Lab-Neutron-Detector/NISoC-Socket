@@ -3722,7 +3722,7 @@
     (uuid 6cb2bfc9-0227-4263-8e6a-9aa61a5200fe)
     (property "Reference" "D1" (id 0) (at 300.99 34.29 0))
     (property "Value" "S1G" (id 1) (at 300.99 36.83 0))
-    (property "Footprint" "Diode_SMD:D_SOD-323" (id 2) (at 300.99 40.64 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 300.99 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 300.99 40.64 0)
@@ -4881,7 +4881,7 @@
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6cb2bfc9-0227-4263-8e6a-9aa61a5200fe"
-      (reference "D1") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D1") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/b154b91e-d5b0-4b9b-9cee-835aeda364c8"
       (reference "D2") (unit 1) (value "36V") (footprint "Diode_SMD:D_SOD-323")
