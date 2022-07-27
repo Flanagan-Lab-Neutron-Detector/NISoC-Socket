@@ -4985,7 +4985,7 @@
     (property "Value" "100uF" (id 1) (at 96.901 168.783 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3" (id 2) (at 94.9452 171.45 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8" (id 2) (at 94.9452 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 167.64 0)
@@ -5110,7 +5110,7 @@
     (property "Value" "100uF" (id 1) (at 88.9 226.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3" (id 2) (at 85.3948 227.33 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8" (id 2) (at 85.3948 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 86.36 231.14 0)
@@ -7725,7 +7725,7 @@
       (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062c185ba"
-      (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
+      (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x5.8")
     )
     (path "/5fc3b5f2-c211-40a5-af34-b74f43ba1340"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -7749,7 +7749,7 @@
       (reference "C12") (unit 1) (value "10uF") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
     )
     (path "/00000000-0000-0000-0000-000062c06aa1"
-      (reference "C13") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_5x5.3")
+      (reference "C13") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x5.8")
     )
     (path "/603e504c-edb3-4de2-87d8-d6fe59535435"
       (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
