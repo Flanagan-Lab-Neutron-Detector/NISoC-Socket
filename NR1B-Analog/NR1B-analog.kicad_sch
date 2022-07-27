@@ -4934,7 +4934,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-000062c027ab)
     (property "Reference" "R1" (id 0) (at 39.37 192.1342 90))
-    (property "Value" "130k" (id 1) (at 39.37 194.6711 90))
+    (property "Value" "130K" (id 1) (at 39.37 194.6711 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 39.37 195.072 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7854,7 +7854,7 @@
       (reference "MOSI_SYS1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm")
     )
     (path "/00000000-0000-0000-0000-000062c027ab"
-      (reference "R1") (unit 1) (value "130k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "130K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062c127fe"
       (reference "R2") (unit 1) (value "130K") (footprint "Resistor_SMD:R_0603_1608Metric")
