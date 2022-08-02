@@ -6,7 +6,7 @@
 
   (title_block
     (title "NISoC Readout 1 Module - Socket TSOP-56 Bus")
-    (date "2022-07-11")
+    (date "2022-08-02")
     (rev "1.0")
     (company "University of Dallas")
     (comment 1 "Drawn By: Aidan Medcalf")
@@ -4267,7 +4267,7 @@
     (uuid 0bc520b3-f2cc-4ff9-bb9f-f8dc16c140f5)
   )
   (text "Forward diodes for reverse-voltage protection.\nZeners for overvoltage protection."
-    (at 198.12 93.98 0)
+    (at 358.14 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12d22e5a-ed55-46e8-9660-6c89bb53382c)
   )
@@ -5015,7 +5015,7 @@
     (uuid 242da293-ae6d-46dd-a6b6-d6ba3d1de6fe)
     (property "Reference" "D3" (id 0) (at 275.59 30.48 0))
     (property "Value" "S1G" (id 1) (at 275.59 33.02 0))
-    (property "Footprint" "Diode_SMD:D_SOD-323" (id 2) (at 275.59 36.83 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 275.59 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 275.59 36.83 0)
@@ -5303,7 +5303,7 @@
     (uuid 63e71f4d-a796-4447-8c82-09fd88a5d9bf)
     (property "Reference" "D5" (id 0) (at 327.66 39.37 0))
     (property "Value" "S1G" (id 1) (at 327.66 41.91 0))
-    (property "Footprint" "Diode_SMD:D_SOD-323" (id 2) (at 327.66 36.83 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 327.66 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 327.66 36.83 0)
@@ -5946,7 +5946,7 @@
     (uuid ad5cafb3-1aba-4113-8611-9bc359308370)
     (property "Reference" "R6" (id 0) (at 341.63 179.07 90))
     (property "Value" "1K" (id 1) (at 341.63 173.99 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 341.63 174.752 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 341.63 174.752 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 341.63 176.53 0)
@@ -5961,7 +5961,7 @@
     (uuid b0782c9b-6f78-48ad-ae89-fb24252cf241)
     (property "Reference" "D9" (id 0) (at 275.59 64.77 0))
     (property "Value" "S1G" (id 1) (at 275.59 62.23 0))
-    (property "Footprint" "Diode_SMD:D_SOD-323" (id 2) (at 275.59 67.31 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 275.59 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 275.59 67.31 0)
@@ -6178,7 +6178,7 @@
     (property "Value" "1K" (id 1) (at 350.52 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 353.822 181.61 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 353.822 181.61 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 355.6 181.61 0)
@@ -6330,7 +6330,7 @@
     (uuid f299b552-8ee7-4386-9f69-6d096e2c001a)
     (property "Reference" "D7" (id 0) (at 327.66 69.85 0))
     (property "Value" "S1G" (id 1) (at 327.66 72.39 0))
-    (property "Footprint" "Diode_SMD:D_SOD-323" (id 2) (at 327.66 67.31 0)
+    (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 327.66 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 327.66 67.31 0)
@@ -6587,25 +6587,25 @@
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/242da293-ae6d-46dd-a6b6-d6ba3d1de6fe"
-      (reference "D3") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D3") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/9b3a8a31-780a-470f-af9f-a3d21756d3b6"
       (reference "D4") (unit 1) (value "5.1V") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/63e71f4d-a796-4447-8c82-09fd88a5d9bf"
-      (reference "D5") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D5") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/a94e8f9e-afa6-4830-aa93-22a913360207"
       (reference "D6") (unit 1) (value "15V") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/f299b552-8ee7-4386-9f69-6d096e2c001a"
-      (reference "D7") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D7") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/61e67969-2acc-4271-bd67-f08a12f7e9a7"
       (reference "D8") (unit 1) (value "18V") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/b0782c9b-6f78-48ad-ae89-fb24252cf241"
-      (reference "D9") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D9") (unit 1) (value "S1G") (footprint "Diode_SMD:D_SMA")
     )
     (path "/c7a096df-9a13-41ae-ae08-3eb578cfc15d"
       (reference "D10") (unit 1) (value "18V") (footprint "Diode_SMD:D_SOD-323")
@@ -6653,10 +6653,10 @@
       (reference "R5") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/ad5cafb3-1aba-4113-8611-9bc359308370"
-      (reference "R6") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R6") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/de0b3ff5-56b8-4e0c-af8a-6e6e370d3733"
-      (reference "R7") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R7") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/65a157dc-e557-41fa-933f-a1426617469b"
       (reference "U1") (unit 1) (value "S29GL01GP") (footprint "NISoC-Socket:Socket_TSOP-56")
