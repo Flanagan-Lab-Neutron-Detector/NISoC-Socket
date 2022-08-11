@@ -5935,7 +5935,7 @@
   (gr_text "NR1B-Analog v1.0\nIsaac Kelly\n2022 University of Dallas" (at 61.1 66.6 270) (layer "F.SilkS") (tstamp b1948856-94f0-4b22-9df3-41bf752e1b08)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "0-8.192V\n20-bit resolution\n3.9uV/step\n" (at 61.6 94.2 270) (layer "F.SilkS") (tstamp b261493a-bd69-4af0-bcde-622983662cb3)
+  (gr_text "0-8.192V\n20-bit resolution\n7.81uV/step\n" (at 61.6 94.2 270) (layer "F.SilkS") (tstamp b261493a-bd69-4af0-bcde-622983662cb3)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "OUT_SENSE0" (at 108.5342 43.2308) (layer "F.SilkS") (tstamp ba264ebc-64f5-44de-8972-0d4e8cc48f51)
