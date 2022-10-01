@@ -1,0 +1,8 @@
+NR1B-Power Change List
+
+v1.1
+- Overcurrent indicator fuckup
+- Moved 5V ferrite bead after regulation and filtering
+
+v1.0
+- Initial release
