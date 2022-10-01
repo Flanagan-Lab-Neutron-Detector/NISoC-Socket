@@ -1,0 +1,43 @@
+NR1B-SQT56 / HX1K design notes
+
+- GBIN pins have global behavior, avoid using?
+- Datasheet: "The internal power-on-reset (POR) signal is deactivated when VCC, VCCIO_2, VPP_2V5, and VCC_SPI have reached the level defined in Table 4.4."
+- IOs are tristated on power-on
+- IO banks support LVCMOS 1.8, 2.5, and 3.3v -- VCCIO must be one of these
+- Power rails:
+	- VCC: 1.2V
+	- VCCIO: 3.3V,
+	- VPP_2V5, master SPI mode: 2.5-3.3
+	- VCCPLL: 1.2V Do we need this?
+	- VPP_FAST: Float
+	- VCC_SPI: 1.8-3.3
+- Power ramp rate: 0.4V/ms. For 3.3V t_ramp = 8.25ms
+	- Sequence: Each supply must reach 0.5V before the next supply can be ramped
+		1. VCC and VCCPLL
+		2. SPI_VCCIO1
+		3. VPP_2V5
+	- Remaining rails may be powered any time after step 1.
+- Configuration time: 53/24/15ms (default 53 / "low frequency" / 7.5MHz)
+- PLL
+	- Not required?
+	- GNDPLL must NOT be connected to board ground
+- Configuration pins:
+	- CBSEL[1:0]
+	- CRESET_B: configuration reset, active low. Actively driven or pulled to VCCIO_2(?) with 10K resistor
+	- CDONE: Output. Pull to VCCIO_2(?) with resistor of value 1/(2*ConfigFrequency*CDONETraceCap) where ConfigFrequency is the internal oscillator frequency
+	- SPI_SS: On configuration, logic level on this pin detemines mode:
+		- 1 = if configured for NVCM then NVCM else SPI master
+		- 0 = SPI Slave
+		- So we want 1 and a 10k pull to VCC_SPI
+
+- Boot mode:
+	- Warm Boot controlled by running configuration
+	- Cold Boot enabled in configuration, set with CBSEL[1:0]
+		- CBSEL = Vector address at start of SPI
+
+- SPI: Need to be able to flash external SPI
+	- SPI Requirements:
+		- 0x0B Fast Read with 24b start address and 8 initial dummy bits
+		- Nice to have: 0xB9 Deep Power Down and 0xAB Release from Deep Power Down
+		- Ready 10us from power on
+	- Reset jumper + SPI flash IO with FTDI cable should work
