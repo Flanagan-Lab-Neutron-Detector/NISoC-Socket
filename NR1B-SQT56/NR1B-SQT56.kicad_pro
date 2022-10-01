@@ -146,7 +146,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|-1231900|571500|6120d764-1185-42d4-824f-014b44d8347a|70a9ea85-def3-4f4c-b9c7-a553662206a5"
+    ],
     "meta": {
       "version": 0
     },
@@ -341,7 +343,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -749,6 +751,10 @@
     [
       "7cd49c05-71c2-4e81-b67d-524083703989",
       ""
+    ],
+    [
+      "28a3e5dc-3e75-44db-8968-172f33a3374a",
+      "FPGA"
     ]
   ],
   "text_variables": {}
