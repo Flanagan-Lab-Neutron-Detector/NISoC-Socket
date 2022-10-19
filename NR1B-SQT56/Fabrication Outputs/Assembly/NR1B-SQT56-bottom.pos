@@ -1,0 +1,31 @@
+### Module positions - created on Wednesday, October 19, 2022 at 02:43:51 PM ###
+### Printed by Pcbnew version (6.0.8-1)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                         PosX       PosY       Rot  Side
+C2        0.1uF        C_0603_1608Metric           -17.0000   -41.2900   90.0000  bottom
+C3        0.1uF        C_0603_1608Metric           -32.0000   -51.8900    0.0000  bottom
+C8        0.1uF        C_0603_1608Metric           -59.1000   -53.7900    0.0000  bottom
+C9        0.1uF        C_0603_1608Metric           -49.7350   -63.0200  180.0000  bottom
+C10       0.1uF        C_0603_1608Metric           -56.8250   -61.5300    0.0000  bottom
+C11       10uF         C_0805_2012Metric           -38.8459   -86.7413  -135.0000  bottom
+C12       10uF         C_0805_2012Metric           -29.2858   -76.6579  -135.0000  bottom
+C13       0.1uF        C_0603_1608Metric           -37.5731   -85.4260  -135.0000  bottom
+C14       0.1uF        C_0603_1608Metric           -30.6010   -77.9590  -135.0000  bottom
+C20       0.1uF        C_0402_1005Metric           -35.1123   -80.7591  135.0000  bottom
+C21       0.1uF        C_0402_1005Metric           -35.7134   -87.8373  -45.0000  bottom
+C22       0.1uF        C_0402_1005Metric           -35.1053   -82.6330   45.0000  bottom
+C24       0.1uF        C_0402_1005Metric           -33.2314   -82.6409  -45.0000  bottom
+C26       0.1uF        C_0402_1005Metric           -33.2244   -80.7521  -135.0000  bottom
+C28       0.1uF        C_0402_1005Metric           -29.9646   -81.0420  135.0000  bottom
+C29       0.1uF        C_0402_1005Metric           -38.3155   -82.4208  -45.0000  bottom
+C30       0.1uF        C_0402_1005Metric           -33.5638   -85.9564  -135.0000  bottom
+D18       ESDA25-4BP6  SOT-23-6                    -28.2000   -45.9900   90.0000  bottom
+R1        1K           R_0805_2012Metric           -27.3000   -56.5900  -90.0000  bottom
+R2        1K           R_0805_2012Metric           -31.5000   -58.4900  -90.0000  bottom
+R5        100          R_0603_1608Metric           -40.0338   -84.2947  135.0000  bottom
+R6        100          R_0603_1608Metric           -28.0000   -75.2900   45.0000  bottom
+U1        OPA189ID     VSSOP-8_3.0x3.0mm_P0.65mm   -20.0000   -41.2900  -90.0000  bottom
+U2        OPA189ID     VSSOP-8_3.0x3.0mm_P0.65mm   -32.0000   -54.9900  180.0000  bottom
+U5        DG419LDY     SOIC-8_3.9x4.9mm_P1.27mm    -58.9000   -57.4800    0.0000  bottom
+## End
