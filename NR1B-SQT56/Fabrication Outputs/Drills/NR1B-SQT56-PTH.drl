@@ -7,19 +7,19 @@ M48
 FMAT,2
 METRIC
 ; #@! TA.AperFunction,Plated,PTH,ViaDrill
-T1C0.076
+T1C0.0762
 ; #@! TA.AperFunction,Plated,PTH,ViaDrill
-T2C0.254
+T2C0.2540
 ; #@! TA.AperFunction,Plated,PTH,ViaDrill
-T3C0.400
+T3C0.4000
 ; #@! TA.AperFunction,Plated,PTH,ComponentDrill
-T4C0.700
+T4C0.7000
 ; #@! TA.AperFunction,Plated,PTH,ComponentDrill
-T5C0.750
+T5C0.7500
 ; #@! TA.AperFunction,Plated,PTH,ComponentDrill
-T6C0.800
+T6C0.8000
 ; #@! TA.AperFunction,Plated,PTH,ComponentDrill
-T7C1.000
+T7C1.0000
 %
 G90
 G05
