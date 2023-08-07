@@ -1,3 +1,0 @@
-- FPGA -> flash DI/DO switched
-- FPGA -> flash SCK/CS switched O_O
-- Reset button connections rotated 90deg
