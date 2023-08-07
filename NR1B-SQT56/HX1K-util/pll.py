@@ -1,6 +1,6 @@
 # taken from Glasgow Amaranth PLL generation: 
 
-pll_f_in = 25e6
+pll_f_in = 24e6
 pll_f_out = 180e6
 simple_feedback = True
 
@@ -11,6 +11,11 @@ if not 10e6 <= pll_f_in <= 133e6:
 if not 16e6 <= pll_f_out <= 275e6:
     print(f"ERROR: PLL: f_out ({pll_f_out/1e6:.3f} MHz) must be between 16 and 275 MHz")
     exit(2)
+
+# simple feedback: fout = f_vco * (2 ** -divq)
+#                       = f_pfd * (divf + 1) * (2 ** -divq)
+#                       = (pll_f_in / (divr + 1)) * (divf + 1) * (2 ** -divq)
+#                       = pll_f_in * (2 ** -divq) * (divf + 1) / (divr + 1)
 
 # The documentation in the iCE40 PLL Usage Guide incorrectly lists the
 # maximum value of DIVF as 63, when it is only limited to 63 when using
