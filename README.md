@@ -5,4 +5,4 @@ NISoC detector socket breakout boards.
 Contains the following:
 | Name      | Detector | Package |
 |-----------|----------|---------|
-| UDNISOC-1 | 90760    | TSOP-56 |
+| UDNISOC-1 | 98760    | TSOP-56 |
